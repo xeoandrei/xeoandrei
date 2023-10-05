@@ -59,7 +59,7 @@ export const Banner = () => {
                 <h1>{`I'm Andrei, an`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Hi, I'm Andrei, a dedicated IT graduate with a passion for 
                     learning and crafting innovative digital solutions.  
-                    <br></br><br></br></p>
+                  </p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
