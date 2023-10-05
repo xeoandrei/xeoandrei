@@ -59,9 +59,7 @@ export const Banner = () => {
                 <h1>{`I'm Andrei, an`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Greetings! Currently, I'm a graduating IT student from 
                     the University of Santo Tomas in Manila, Philippines. 
-                    <br></br><br></br>
-                    This is a simple template that I followed to practice React focusing on creativity and design. 
-                    </p>
+                    <br></br><br></br></p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
