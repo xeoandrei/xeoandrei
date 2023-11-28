@@ -54,21 +54,21 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+              <div className={isVisible ? "animate__animated" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`I'm Andrei, an`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Hi, I'm Andrei, a dedicated IT graduate with a passion for 
                     learning and crafting innovative digital solutions.  
                   </p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={() => window.location.href = "https://www.linkedin.com/in/xeoandrei"}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <TrackVisibility>
               {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
+                <div className={isVisible ? "" : ""}>
+                  <img src={headerImg} alt="Header Img" style={{ maxWidth: "70%" }} /> {/* Adjusted style for the image */}
                 </div>}
             </TrackVisibility>
           </Col>
