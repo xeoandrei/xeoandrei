@@ -38,9 +38,9 @@ export const Projects = () => {
           <Col size={12}>
             <TrackVisibility>
               {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
+              <div>
                 <h2>Projects</h2>
-                <p>The following projects displayed are my developed  
+                <p>The following web projects displayed are my  
                   outputs from college and in the professional work.
                   </p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
@@ -49,13 +49,13 @@ export const Projects = () => {
                       <Nav.Link eventKey="first">DapperDrops</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Obaya Salon & Cafe Studio</Nav.Link>
+                      <Nav.Link eventKey="second">Obaya Studio</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="third">Personal Projects</Nav.Link>
                     </Nav.Item>
                   </Nav>
-                  <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
+                  <Tab.Content id="slideInUp" className={isVisible ? "" : ""}>
                     <Tab.Pane eventKey="first">
                       <Row>
                         {
